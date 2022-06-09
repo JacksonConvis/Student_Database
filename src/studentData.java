@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class studentData {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner scan = new Scanner(System.in);
 		int choice;
@@ -41,7 +40,7 @@ public class studentData {
 			String food = favArr[choice];
 
 			System.out.println("Student " + choice + " is " + name
-					+ " What would you like to know about them? (enter ìhometownî or ìfavorite_foodî)");
+					+ " What would you like to know about them? (enter ‚Äúhometown‚Äù or ‚Äúfavorite_food‚Äù)");
 
 			String input = scan.next();
 			
